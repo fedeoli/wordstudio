@@ -25,13 +25,10 @@ body {
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
@@ -52,4 +49,23 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+/* MY SETTINGS SIDENAV STYLE */
+
+.sidenav_opt, .sidenav_icon {
+	color: green;
+}
+
+.sidenav_opt:hover, .fa-times-circle:hover {
+	color: red;
+  transition: 0.8s;
+}
+
+#sidenav_menu {
+	position:absolute;
+	left: 7px;
+	top: 5px;
+	font-size: 30px;
+	cursor: pointer;
 }
